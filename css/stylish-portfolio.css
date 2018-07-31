@@ -17,7 +17,7 @@ body {
 }
 
 .text-color-blue {
-	color:#333;
+	color:#e24401;
 }
 .text-color-blue a {
 	color:#e24401;
@@ -165,8 +165,8 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 80%;
-    background: url(https://c2.staticflickr.com/8/7337/12818076745_a167e81774_o.jpg) no-repeat center center scroll;
+    height: 100%;
+    background: url(https://farm5.staticflickr.com/4097/5432116637_76dc639439_z.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -200,7 +200,7 @@ hr.small {
 }
 
 .services a {
-    color: #e24401;
+    color: white;
 }
 
 .services a:focus, a:hover {
@@ -230,12 +230,10 @@ hr.small {
 .location {
     display: table;
     width: 100%;
-    height: 410px;
+    height: 400px;
     color: #000;
     font-family: 'Comfortaa', cursive;
-
-    background: url(https://s17.postimg.org/ui80royhr/UCSF_sig_navy_RGB.jpg) no-repeat center center scroll;
-
+    background: url(https://static1.squarespace.com/static/5568da0fe4b0e416f91d4080/t/5a7ccfc1f9619a0d16fd1882/1518129097623/isi_logo.jpg) no-repeat center center scroll;
     -webkit-background-size: auto;
     -moz-background-size: auto;
     background-size: auto;
@@ -244,7 +242,7 @@ hr.small {
 
 .text-dark {
 	/*background-color: rgba(51,123,183,.6);*/
-	background-color: rgba(20,20,20,.8);
+	background-color: rgba(20,20,20,.6);
 	color: #fff;
 }
 
@@ -255,12 +253,10 @@ hr.small {
 .workspace {
     display: table;
     width: 100%;
-    height: 750px;
-    text-align: center;
-    height: 800px
+    height: 400px;
     color: #fff;
     font-family: 'Comfortaa', cursive;
-    background: url(https://c2.staticflickr.com/4/3807/14270818136_7f8d5b06e4_o.jpg) no-repeat center center scroll;
+    background: url(https://www.manylabs.org/file/general/home/optics-experiment.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

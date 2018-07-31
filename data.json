@@ -1,16 +1,16 @@
 {
-  "title": "San Francisco Brainhack 2017",
-  "location": "San Francisco, CA, USA",
-  "dates": "March 03-05, 2017",
-  "year": "2017",
-  "background_img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ggb_by_night.jpg",
+  "title": "LA Brainhack 2018",
+  "location": "Los Angeles, CA, USA",
+  "dates": "October 31st-November 2nd, 2018",
+  "year": "2018",
+  "background_img": "https://farm5.staticflickr.com/4097/5432116637_76dc639439_z.jpg",
   "color_theme": {"background": "#3b2e26", "font": "#fff", "link_color": "#e24401"},
   "global_brainhack_organizers": ["Cameron Craddock"],
-  "registration_link":"https://www.eventbrite.com/e/brainhack-global-san-francisco-2017-tickets-31948017380",
+  "registration_link":"",
   "slack_link":"https://brainhack-slack-invite.herokuapp.com/",
   "project_submit_link":"http://events.brainhack.org/global2017/",
-  "title_photo_link":"https://upload.wikimedia.org/wikipedia/commons/a/a4/Ggb_by_night.jpg",
-  "title_photo_author": "Wikipedia",
+  "title_photo_link":"https://www.flickr.com/photos/pedrosz/",
+  "title_photo_author": "Pedro Szekely (ISI faculty)",
   "services":[{
     "name": "Share",
     "desc": "Show your research to other neuroimaging researchers.",
@@ -48,11 +48,11 @@
                             {"time": "2:00-5:30pm", "event": "Open Hacking"},
                             {"time": "5:30-7:00pm", "event": "Project Presentations + Socialize"}]}
                   ],
-    "location_logo": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/5/0/1/7/highres_455060503.jpeg",
-    "location_name": "Manylabs",
-    "location_url":"https://www.manylabs.org/",
-    "google_maps_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11289.96447919898!2d-122.4129674880236!3d37.77753278990755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858082235da2e7%3A0xb30be4b717ffde73!2sManylabs!5e0!3m2!1sen!2sus!4v1486322788908",
+    "location_logo": "https://static1.squarespace.com/static/5568da0fe4b0e416f91d4080/t/5a7ccfc1f9619a0d16fd1882/1518129097623/isi_logo.jpg",
+    "location_name": "Information Sciences Institute",
+    "location_url":"https://www.isi.edu/",
+    "google_maps_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.4755033877327!2d-118.4422865851257!3d33.98031818062561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba807e9dc4f7%3A0xcbfb9ebc54219723!2sInformation+Sciences+Institute!5e0!3m2!1sen!2sus!4v1533000159751",
     "sponsors": [{"name": "", "url": "", "logo":""}],
-    "organizers": ["Dan Lurie (chair)", "Anisha Keshavan", "JB Poline", "Russ Poldrack", "Chris Filo Gorgolewski", "Teon Brooks"]
+    "organizers": ["Daniel Moyer", "Pamela Douglas", "Julio Villalon Reina"]
 
 }
