@@ -10,6 +10,9 @@ html,
 body {
     width: 100%;
     height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 body {
@@ -176,7 +179,7 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 /* Sponsors */
