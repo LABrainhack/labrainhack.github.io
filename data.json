@@ -1,10 +1,10 @@
 {
   "title": "LA Brainhack 2018",
   "location": "Los Angeles, CA, USA",
-  "dates": "October 31st-November 2nd, 2018",
+  "dates": "Nov 8th-10th, 2018",
   "year": "2018",
   "background_img": "https://farm5.staticflickr.com/4097/5432116637_76dc639439_z.jpg",
-  "color_theme": {"background": "#3b2e26", "font": "#fff", "link_color": "#e24401"},
+  "color_theme": {"background": "#3b2e26", "font": "#fff", "link_color": "#0000EE"},
   "global_brainhack_organizers": ["Cameron Craddock"],
   "registration_link":"",
   "slack_link":"https://brainhack-slack-invite.herokuapp.com/",
@@ -26,7 +26,7 @@
   {"name":"Be Social",
     "desc":"Meet researchers from a variety of backgrounds.",
     "fa_icon": "fa-wechat"}],
-    "details": {"costs":"$35 USD for students/postdocs/RAs, 65$ for faculty, includes onsite breakfast, lunch, and refreshments"},
+    "details": {"costs":"$35 USD for students/postdocs/RAs, $65 for faculty, includes lunch, refreshments, and a Friday evening social!"},
     "schedule_background_img": "https://www.manylabs.org/file/general/home/optics-experiment.jpg",
     "schedule":  [{"date": "Friday, March 03",
                   "times": [{"time": "6pm", "event": "Welcome + Intro to Brainhack "},
@@ -53,6 +53,6 @@
     "location_url":"https://www.isi.edu/",
     "google_maps_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.4755033877327!2d-118.4422865851257!3d33.98031818062561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba807e9dc4f7%3A0xcbfb9ebc54219723!2sInformation+Sciences+Institute!5e0!3m2!1sen!2sus!4v1533000159751",
     "sponsors": [{"name": "", "url": "", "logo":""}],
-    "organizers": ["Daniel Moyer", "Pamela Douglas", "Julio Villalon Reina"]
-
+    "organizers": ["Daniel Moyer", "Pamela Douglas", "Julio Villalon Reina"],
+    "org": "Cameron Craddock"
 }
