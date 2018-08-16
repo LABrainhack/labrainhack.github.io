@@ -84,7 +84,7 @@
       <!--<a href="{{project_submit_link}}" target="_blank" class="btn btn-dark btn-lg top5 left5">See All Brainhack Global Sites</a><br><br>-->
 
 			<br><br><br>
-            <p>Photo by <a href="{{title_photo_link}}">{{title_photo_author}}</a></p>
+            <p>Photos by <a href="{{title_photo_link}}">{{title_photo_author}}</a> and <a href="{{schedule_photo_link}}">{{schedule_photo_author}}</a></p>
             <!-- <a href="#about" class="btn btn-dark btn-lg">Find Out More</a> -->
         </div>
           <div class="text-bottom-right">
@@ -157,13 +157,9 @@
 
     <!-- Callout -->
     <aside class="workspace" id="schedule" style="height: 200px;">
-        <div class="container">
-			<div class="row text-center top30">
-				<div class="col-md-2 col-md-offset-5 col-xs-8 col-xs-offset-2 text-dark">
-				    <h3>Schedule TBD</h3>
-			    </div>
-			</div>
-<!--			<div class="row top30">
+      <div class="container">
+
+		    <div class="row top30">
 {% for sched in schedule %}
 				<div class="col-md-6 col-lg-4 col-sm-10 col-xs-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-1 col-xs-offset-1">
 					<div class="row top5 text-center">
@@ -173,25 +169,28 @@
 				    </div>
             {% for time in sched.times %}
 					<div class="row top5">
-			            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
-				            {{time.time}}
-			            </div>
-			            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
-				            {{time.event}}
-			            </div>
-				    </div>
-            {% endfor %}
-            <div class="row top5">&nbsp;
-  				    </div>
-  					<div class="row top5">&nbsp;
-  				    </div>
-  					<div class="row top5">&nbsp;
-  				    </div>
+			      <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+				      {{time.time}}
+			      </div>
+			      <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+				      {{time.event}}
+			      </div>
+          </div>
+          {% endfor %}
+
+          <div class="row top5">&nbsp;
+  			  </div>
+
+  				<div class="row top5">&nbsp;
   				</div>
+
+  				<div class="row top5">&nbsp;
+  			  </div>
+  			</div>
 {% endfor %}
 
 		    </div>
--->
+
 		</div>
     </aside>
 
